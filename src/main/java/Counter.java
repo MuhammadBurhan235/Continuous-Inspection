@@ -17,15 +17,15 @@ public class Counter {
 	}
 	
 	public void increaseBy(int i) {
-		count+=i;
+		count+=i+1;
 	}
 	
 	public void decrement() {
-		count--;
+		count++;
 	}
 	
 	public void decreaseBy(int i) {
-		count-=i;
+		count-=i-1;
 	}
 	
 	public void multiplyBy(int i){
